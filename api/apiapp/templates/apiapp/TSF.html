@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Static Files</title>
+    {% load static %}
+</head>
+<body>
+
+    <table>
+        <caption>Test Static Files</caption>
+    </table>
+    <thead>
+        <tr>
+            <td><img src="{% static 'apiapp/images/django.jpeg'%}" alt="django image"></td>
+            <td><img src="{% static 'apiapp/images/django2.jpeg' %}" alt="again django"></td>
+        </tr>
+    </thead>
+
+    
+</body>
+</html>
